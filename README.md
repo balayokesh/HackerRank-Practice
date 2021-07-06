@@ -1,2 +1,1 @@
-# c-learning
-I opened this repository to start learning c++
+This repository contains all the problems and solutions that I solved in Hackerrank
