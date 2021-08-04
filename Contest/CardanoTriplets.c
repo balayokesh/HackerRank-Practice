@@ -1,3 +1,8 @@
+/*
+Problem link: https://www.hackerrank.com/contests/kit-ciii-practice-contest-day-33/challenges/euler251/problem
+This problem is a programming version of Problem 251 from projecteuler.net
+*/
+
 #include <stdio.h>
 #include <math.h>
 
