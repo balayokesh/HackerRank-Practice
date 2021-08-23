@@ -1,3 +1,5 @@
+# Question URL: https://www.hackerrank.com/contests/kit-ciii-practice-contest-day-46/challenges/amount-paid/problem
+
 # get input
 product = int(input())
 type = input()
