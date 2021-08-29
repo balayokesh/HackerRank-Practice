@@ -1,3 +1,31 @@
+/*
+print the given pattern
+
+Input Format
+n=> positive integer
+
+Constraints
+positive integer
+
+Output Format
+pattern
+
+Sample Input 0
+5
+
+Sample Output 0
+
+    *
+   **
+  ***
+ ****
+*****
+****
+***
+**
+*
+*/
+
 #include <stdio.h>
 
 int main () {
