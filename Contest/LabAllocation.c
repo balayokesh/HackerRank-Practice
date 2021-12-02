@@ -32,20 +32,22 @@ L2
 
 #include <stdio.h>
 
-int main () {
-    int x, y, z, n;
-    scanf("%d %d %d %d", &x, &y, &z, &n);
+int main() {
+    int l1, l2, l3, l4;
+    scanf("%d %d %d %d", &l1, &l2, &l3, &l4);
+    if (l1 < l4) 
+        l1 = 1000;  
+    if (l2 < l4) {
+        l2 = 1000;
+    if (l3 < l4)
+        l3 = 1000;
     
-    if (x >= n) {
+    if (l1 < l2 && l1 < l3)
         printf("L1");
-        return 0;
-    }
-    if (y >= n) {
+    else if (l2 < l3 && l2 < l1)
         printf("L2");
-        return 0;
-    }
-    if (z >= n) {
+    else if (l3 < l2 && l3 < l1)
         printf("L3");
-        return 0;
-    }
+    
+    return 0;
 }
