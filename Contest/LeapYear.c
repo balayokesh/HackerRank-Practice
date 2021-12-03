@@ -20,7 +20,7 @@ int main()
         }
     }
     else {
-        printf ("She was born on non a Leap year");
+        printf ("She was born on non a leap year");
         return 0;
     }
 
