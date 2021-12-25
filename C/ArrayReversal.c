@@ -10,17 +10,12 @@ int main()
         scanf("%d", arr + i);
     }
 
-    /* Write the logic to reverse the array. */
-    int count = num;
-    while (count--) {
-        int temp = arr[0];
-        for (int i=1; i<num; i++) {
-            arr[i-1] = arr[i];  
-        }
-        arr[num-1] = temp;
+    int *arr2 = (int*) malloc(num * sizeof(int));
+    for (int i=1; i<=num; i++) {
+        arr2[i-1] = arr[num - i];
     }
 
     for(i = 0; i < num; i++)
-        printf("%d ", *(arr + i));
+        printf("%d ", *(arr2 + i)); 
     return 0;
 }
