@@ -31,7 +31,7 @@ Sample Input 1
 1
 3
 Sample Output 1
-
+ 
 2 3 1 1
 */
 
