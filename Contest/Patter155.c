@@ -60,3 +60,42 @@ void printStar (int stars) {
         printf ("*");
     }
 }
+
+// alternate solution
+/*
+#include <stdio.h>
+
+int main()
+{
+    int n, spaces, stars;
+    scanf ("%d", &n);
+    
+    for (int i=1; i<=n; i++) {
+        spaces = n-i;
+        for (int j=0; j<n; j++) {
+            if (spaces) {
+                printf (" ");
+                spaces--;
+            }
+            else
+                printf ("*");
+        }
+        printf ("\n");
+    }
+    
+    for (int i=1; i<=n; i++) {
+        stars = n-i;
+        for (int j=0; j<n; j++) {
+            if (stars) {
+                printf ("*");
+                stars--;
+            }
+            else
+                printf (" ");
+        }
+        printf ("\n");
+    }
+
+    return 0;
+}
+*/
