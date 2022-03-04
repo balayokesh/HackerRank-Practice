@@ -27,6 +27,7 @@ run
 nest
 """
 
+# Solution 1
 count = 0
 while (1):
     a = input()
@@ -41,3 +42,22 @@ while (1):
         else:
             print(a)
     prev = a;
+    
+ # Solution 2
+ls = []
+
+while (1):
+    str = input()
+    if (str == "####"):
+        break
+    else:
+        ls.append(str)
+    
+count = 0
+for i in ls:
+    if (count < 1):
+        print(i)
+    else:
+        if (i[0] == ls[count - 1][-1]):
+            print(i)
+    count += 1
