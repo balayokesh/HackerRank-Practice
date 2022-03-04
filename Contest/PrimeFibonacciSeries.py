@@ -32,11 +32,10 @@ a = int(input())
 def isPrime(n):
     if (n == 4):
         return 0
-    for i in range (2, n//2):
+    for i in range (2, n // 2):
         if (n % i == 0):
             return 0
-    else:
-        return 1
+    return 1
     
 fib = [0, 1]
 i = 0
